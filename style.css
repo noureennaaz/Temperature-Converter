@@ -85,7 +85,9 @@ option{
     width:100%;
     justify-content: space-evenly;
 }
-
+.lowerBlock fieldset{
+    width:40%;
+}
 
 input{
     background-color: transparent;
