@@ -74,6 +74,6 @@ function convert()
     }
 
 
-    OutputField.value=ToValue;
+    OutputField.value=ToValue.toPrecision(4);
 }
 
