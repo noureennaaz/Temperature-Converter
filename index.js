@@ -11,7 +11,6 @@ updateDropdownOptions('dropdown1', To.value)
 
 // to make sure no two selected values are same....
 function updateDropdownOptions( otherDropdownId, selectedValue) {
-    // var selectedDropdown = document.getElementById(selectedDropdownId);
     var otherDropdown = document.getElementById(otherDropdownId);
 
     // Enable all options in the other dropdown
